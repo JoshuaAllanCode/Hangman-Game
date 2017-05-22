@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>HangMan</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+</head>
+  
+
+<body>
+
+  	<div clas="container">
+
+  		<div class="jumbotron">
+  				<h1>HANGMAN!!</h1>
+  				<p>Life or Death in the Balance</p>
+  		</div>
+
+  		<div class="panel panel-default">
+  			<div class="panel-heading">
+  				<h3 class="panel-title">Word to Guess</h3>
+  			</div>
+  			<div class="panel-body">
+  				<h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
+  			</div>
+  		</div>
+
+  		<div class="panel panel-default">
+  			<div class="panel-body">
+  				Wrong Guesses: <span id="wrongGuesses"></span>
+  			</div>
+  		</div>
+
+  		<div class="panel panel-default">
+  			<div class="panel-body">
+  				Guesses Left: <span id="numGuesses">9</span>
+  			</div>
+  		</div>
+
+  		<div class="panel panel-default">
+  			<div class="panel-body">
+  				Win Counter: <span id="winCounter">0</span>
+  			</div>
+  		</div>
+
+  		<div class="panel panel-default">
+  			<div class="panel-body">
+  				Loss Counter: <span id="lossCounter">0</span>
+  			</div>
+  		</div>
+
+  	</div>
+
+    <script src="Assets/logic.js"></script>
+ </body>
+ </html>
+
